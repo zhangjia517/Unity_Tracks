@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="high_data" version="1.3.0" audacityversion="2.0.3" sel0="0.0000000000" sel1="3.8703174603" vpos="0" h="0.0000000000" zoom="344.5312500000" rate="44100.0">
+	<tags/>
+	<wavetrack name="MONO-017" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="1.46204082">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="106205">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b93.au" len="106205" min="-0.478408" max="0.638277" rms="0.130058"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="7">
+				<controlpoint t="0.093696145125" val="0.027777777985"/>
+				<controlpoint t="0.334603174603" val="1.000000000000"/>
+				<controlpoint t="1.257596371882" val="1.055555582047"/>
+				<controlpoint t="1.408526077098" val="1.500000000000"/>
+				<controlpoint t="1.768435374150" val="1.500000000000"/>
+				<controlpoint t="2.009342403628" val="1.500000000000"/>
+				<controlpoint t="2.148662131519" val="1.055555582047"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="MONO-017" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="108810">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000109.au" len="108810" min="-0.891251" max="0.681998" rms="0.166935"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="2">
+				<controlpoint t="1.756009070295" val="1.000000000000"/>
+				<controlpoint t="1.930158730159" val="0.055555555969"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="MONO-017" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="1.14648526">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="120121">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000480.au" len="120121" min="-0.819106" max="0.891251" rms="0.226444"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="3">
+				<controlpoint t="0.000005000000" val="0.027777777985"/>
+				<controlpoint t="0.257601371882" val="1.000000000000"/>
+				<controlpoint t="0.405623582766" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="MONO-017" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="68679">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004f9.au" len="68679" min="-0.782192" max="0.605403" rms="0.145457"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="3">
+				<controlpoint t="1.398276643991" val="1.000000000000"/>
+				<controlpoint t="1.547755102041" val="0.097222223878"/>
+				<controlpoint t="1.557341938776" val="0.000000100000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>

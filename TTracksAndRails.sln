@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTracksAndRails.CSharp", "TTracksAndRails.CSharp.csproj", "{0A31AC8B-600F-E7CC-A67C-9637585FBBB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTracksAndRails.CSharp.Editor", "TTracksAndRails.CSharp.Editor.csproj", "{4F2E1269-9A9F-BEEB-FE8F-234AD9F70B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A31AC8B-600F-E7CC-A67C-9637585FBBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A31AC8B-600F-E7CC-A67C-9637585FBBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A31AC8B-600F-E7CC-A67C-9637585FBBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A31AC8B-600F-E7CC-A67C-9637585FBBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2E1269-9A9F-BEEB-FE8F-234AD9F70B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2E1269-9A9F-BEEB-FE8F-234AD9F70B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2E1269-9A9F-BEEB-FE8F-234AD9F70B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2E1269-9A9F-BEEB-FE8F-234AD9F70B94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,49 @@
+(Version numbers: http://semver.org/)
+
+2.0.0:
+	Changes:
+		- CatmullRom and Linear curve types have been removed.
+			- These cure types do not guarantee that the tangent of the curve matches the direction of the
+				curve at the start and end points.
+			- Hermite curves now allow you to control to strength of the curve at the beginning and end.
+		- Existing Hermite curves should retain their shape, but may not be generated pixel-for-pixel the same as
+			last release.
+		- All track scripts were moved into a namespace. Add "using ZenFulcrum.Track;" to the top of any file using track
+			APIs.
+		- The field CartTrack.currentTrack has been replaced with the property CartTrack.CurrentTrack.
+			- SwitchCurrentSectionTo is now deprecated, use track.CurrentTrack = x instead.
+	Features:
+		- Curve start and end points now have strengths, allowing better control over the curve.
+			- When editing the start or end of a track piece, use the new purple ball to adjust the curve strength.
+		- Added snap-cart-to-track button. Use it to align an assigned cart to its track or to assign a new cart
+			to the nearest track and align it.
+		- Add new demos for:
+			- Creating a multi-car train.
+			- Creating a touch control to switch track between nodes.
+		- Added new TrackCartSound script for adding sounds to carts. See the readme under "Cart Sounds" for details.
+		- Two carts with their sound set up are included in the Prefabs folder.
+		- Examples of the other track profiles are included in the Prefabs folder. (You may have to re-assign textures if
+			using Unity 4.)
+		- TrackSwitcher can now switch the start of the track.
+		- TrackSwitcher can be manually switched during play mode from the inspector.
+	Fixes:
+		- Cart tracking has been overhauled.
+			- Sharp corners and strangely shaped pieces should no longer explode or continue straight.
+			- Strangely shaped pieces should no longer face a (notably different) different direction than the track
+				section they are on.
+			- Single pieces that loop should now work, provided they doesn't self-intersect (or nearly self-intersect)
+				and aren't too cusp-like.
+		- Limit the number of rail ties we will generate to something sane.
+		- Remove some empty/unused bits.
+		- Lots of spelling fixes.
+		- TrackSwitcher doesn't force a switch on startup.
+		- Added a warning in the Editor when you try to modify static geometry.
+		- Added copyright header to C# files.
+		- Acceleration on a TrackCart is determined correctly for stopped and very slow bodies, even when only reverse
+			thrust is allowed.
+		- TrackSwitcher won't get stuck between positions if switched away and back before a transition completes.
+		- Other minor fixes.
+
+1.0.0 ("draft"):
+	Initial release
+
